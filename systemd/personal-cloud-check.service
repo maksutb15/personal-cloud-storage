@@ -1,0 +1,11 @@
+[Unit]
+Description=Personal Cloud Storage startup check
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/personal-cloud-check.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
