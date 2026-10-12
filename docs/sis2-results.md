@@ -57,7 +57,15 @@ The setup script is stored at scripts/setup_sis2.sh.
 ## Evidence
 
 Screenshots should be added to the screenshots/ directory.
+## Evidence
 
+Screenshots documenting the SIS2 implementation:
+
+1. [Users and groups](../screenshots/01-users-and-groups.jpg)
+2. [Directory permissions](../screenshots/02-directory-permissions.jpg)
+3. [Sudo permissions](../screenshots/03-sudo-permissions.jpg)
+4. [Automation SSH test](../screenshots/04-automation-ssh.jpg)
+5. [systemd service status](../screenshots/05-systemd-service.jpg)
 ## Conclusion
 
 The project groups, service accounts, directory permissions, SSH key
